@@ -1,0 +1,186 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+  background: #dbd8d1;
+  color: #302d2c;
+}
+
+/* -------- HEADER -------- */
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 3rem 9%;
+  display: flex;
+  justify-content: center;
+  background-color: #dbd8d1;
+  font-size: 1.3rem;
+}
+
+header nav a {
+  margin: 0.4rem;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  font-weight: bold;
+  color: inherit;
+}
+
+header nav a:hover {
+  background: #302d2c;
+  color: #dbd8d1;
+}
+
+/* -------- INICIO -------- */
+.perfil {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  height: 100vh;
+  font-size: 3rem;
+}
+
+.perfil img {
+  width: 100%;
+  max-width: 400px;
+  display: block;
+}
+
+h1 {
+  font-size: 6rem;
+}
+
+span {
+  color: #b98080;
+}
+
+/* -------- SOBRE MI -------- */
+.sobre-mi {
+  padding: 15rem;
+  background: #302d2c;
+  color: #dbd8d1;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.intereses {
+  font-size: 4rem;
+  margin-bottom: 5rem;
+}
+
+.yo p {
+  font-size: 1.5rem;
+}
+
+/* -------- SKILLS -------- */
+.skills {
+  background: #dbd8d1;
+  text-align: center;
+}
+
+.mis-skills {
+  padding: 10rem;
+}
+
+.mis-skills p {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+.skills-img {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5rem;
+  margin: 5rem 0;
+}
+
+.skills-img > div {
+  text-align: center;
+}
+
+.skills img {
+  max-width: 100px;
+  display: block;
+  margin: 0 auto;
+}
+
+.skills-titulo {
+  font-size: 5rem;
+  margin-bottom: 3rem;
+}
+
+/* -------- CONTACTO -------- */
+.mi-contacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #302d2c;
+  padding: 6rem;
+  color: #dbd8d1;
+  text-align: left;
+}
+
+form {
+  width: 100%;
+  max-width: 500px;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+form h2 {
+  font-size: 5rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.form-group {
+  margin-bottom: 2rem;
+}
+
+input, textarea {
+  width: 100%;
+  margin-top: 0.5rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  background: #dbd8d1;
+}
+
+.mi-contacto button {
+  padding: 0.4rem 2rem;
+  border-radius: 1rem;
+  background: #d1a6a0;
+  color: #fff;
+  font-size: 1.3rem;
+  cursor: pointer;
+  display: block;
+  margin: 2rem auto 0;
+  transition: all 0.2s ease;
+  font-family: "Oswald", sans-serif;
+}
+
+.mi-contacto button:hover {
+  opacity: 0.8;
+}
+
+.mi-contacto button:active {
+  filter: brightness(80%);
+}
+
+/* -------- FOOTER -------- */
+footer {
+  text-align: center;
+  padding: 3rem;
+  background: #302d2c;
+  color: #dbd8d1;
+  font-size: 1rem;
+}
